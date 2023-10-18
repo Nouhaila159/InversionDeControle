@@ -65,3 +65,7 @@ L'utilisation d'interfaces est essentielle pour réduire le couplage entre les c
 <img src="captures/metierimpl1.png" alt="service">
 <p>Controller</p>
 <img src="captures/spring_annotation.png" alt="i">
+<h2 style="color: olivedrab">Conclusion</h2>
+<p>
+En conclusion, ce rapport a exploré les principes cruciaux de l'Inversion de Contrôle (IoC) et de l'Injection des Dépendances (DI) dans le contexte du développement logiciel. Ces concepts ont été étudiés en détail, mettant en évidence leur impact sur la modularité, la testabilité et la maintenabilité des applications. La mise en œuvre pratique, tant à travers l'utilisation d'interfaces pour réduire le couplage que via l'intégration de Spring Framework en utilisant des configurations XML et des annotations, a été démontrée. Comprendre et appliquer ces concepts est essentiel pour concevoir des applications flexibles, résistantes aux changements internes, et prêtes à s'étendre, offrant ainsi un cadre solide pour le développement logiciel moderne.
+</p>
