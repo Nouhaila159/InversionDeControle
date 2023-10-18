@@ -53,8 +53,9 @@ L'utilisation d'interfaces est essentielle pour réduire le couplage entre les c
 <img src="captures/Pres1_instanstation_statique.png" alt="instantiation statique">
 <h3>Instantiation dynamique</h3>
 <img src="captures/Pres2_instanstation_dynamique.png" alt="instantiation dynamique">
+<p>L'ajout d'un fichier "config.txt" :</p>
+<img src="captures/config_txt.png" alt="config.txt">
 <h3>Injection des dépendances en utilisant Spring version xml</h3>
-<p>On doit installer en premier lieu les dépandences, ensuite ajouter un fichier config.xml</p>
 <img src="captures/config_xml.png" alt="config.xml">
 <img src="captures/spring_xml.png" alt="spring version xml">
 <h3>Injection des dépendances en utilisant Spring version annotations</h3>
