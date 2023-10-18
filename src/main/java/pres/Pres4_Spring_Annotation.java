@@ -11,7 +11,7 @@ public class Pres4_Spring_Annotation {
         ApplicationContext context = new AnnotationConfigApplicationContext("dao","metier");
         IMetier metier = context.getBean(IMetier.class);
         System.out.println("RES = "+metier.calcul());
+
     }
 }
-
 

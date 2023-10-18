@@ -24,3 +24,4 @@ public class Pres2 {
         System.out.println("Res" +metier.calcul());
     }
 }
+
