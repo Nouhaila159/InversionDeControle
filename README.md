@@ -59,8 +59,8 @@ L'utilisation d'interfaces est essentielle pour réduire le couplage entre les c
 <img src="captures/spring_xml.png" alt="spring version xml">
 <h3>Injection des dépendances en utilisant Spring version annotations</h3>
 <p>Repository Class</p>
-<img src="captures/spring_annotation.png" alt="repository class">
+<img src="captures/idao.png" alt="repository class">
 <p>Service Class</p>
-<img src="captures/MetierImpl.png" alt="service">
+<img src="captures/metierimpl1.png" alt="service">
 <p>Controller</p>
-<img src="captures/pres4_annota.png" alt="i">
+<img src="captures/spring_annotation.png" alt="i">
