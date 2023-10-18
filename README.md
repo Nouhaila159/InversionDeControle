@@ -1,5 +1,5 @@
 <p>Realisée par : DANOUNI NOUHAILA</p>
-<p>_____________________________________________________________
+<p>_________________________________________________________________________________________________
 <h1>Rapport de TP N°1 : Invertion de Contrôle et Injection des dépendances</h1>
 <h2 style="color: olivedrab">Introduction</h2>
 <p>Ce rapport explore les concepts d'Inversion de Contrôle (IoC) et d'Injection des Dépendances (DI) dans le contexte du développement logiciel. IoC et DI sont des principes fondamentaux visant à améliorer la modularité, la testabilité et la maintenabilité des applications. Dans cette étude, nous examinerons leurs avantages, principes de base, et leur mise en œuvre pratique à travers des exemples concrets. Ce rapport sert de guide pour comprendre et appliquer efficacement IoC et DI dans le développement de logiciels robustes et évolutifs.</p>
