@@ -37,6 +37,9 @@
 <p>
 L'utilisation d'interfaces est essentielle pour réduire le couplage entre les classes. Par exemple, lorsque MetierImpl est liée à l'interface IDao, un couplage faible est établi. Cela signifie que MetierImpl peut collaborer avec n'importe quelle classe respectant le contrat de IDao, sans nécessiter de modifications dans MetierImpl. Cette approche favorise la flexibilité et la résistance aux modifications internes, créant ainsi des applications robustes et extensibles.
 </p>
+<p>
+Lorsque nous adoptons un couplage faible, nous favorisons la création d'applications qui sont "fermées à la modification" (nous n'avons pas besoin de modifier les classes existantes) et "ouvertes à l'extension" (nous pouvons ajouter de nouvelles classes qui implémentent l'interface sans perturber le fonctionnement des classes existantes).
+</p>
 <h2 style="color: olivedrab">Captures d'écrans</h2>
 <h3>Création de l'interface IDao</h3>
 <img src="captures/idao.png" alt="interface IDao">
@@ -60,10 +63,13 @@ L'utilisation d'interfaces est essentielle pour réduire le couplage entre les c
 <img src="captures/spring_xml.png" alt="spring version xml">
 <h3>Injection des dépendances en utilisant Spring version annotations</h3>
 <p>Repository Class</p>
+<p>@Repository : Cette annotation est utilisée pour indiquer que la classe est un composant de persistance, généralement utilisé pour les accès aux données.</p>
 <img src="captures/daoimpl.png" alt="repository class">
 <p>Service Class</p>
+<p>@Service : Cette annotation est utilisée pour marquer une classe en tant que service. Les classes de service contiennent la logique métier de l'application. Les classes annotées avec @Service sont découvertes et gérées par Spring.</p>
 <img src="captures/metierimpl1.png" alt="service">
 <p>Controller</p>
+<p>@Controller : Cette annotation est utilisée pour marquer une classe en tant que contrôleur dans le contexte Spring MVC.</p>
 <img src="captures/spring_annotation.png" alt="i">
 <h2 style="color: olivedrab">Conclusion</h2>
 <p>
